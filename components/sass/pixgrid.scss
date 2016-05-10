@@ -1,0 +1,17 @@
+// _pixgrid.scss
+// ==============
+.pixgrid {
+    img {
+        display: block;
+        max-width: 90px;
+        padding: 0 5px 5px 0;
+
+        cursor: url(../images/misc/magnifying_glass.png), auto;
+
+        @include border-radius(15px);
+    }
+
+    .preview img {
+        padding: 0;
+    }
+}
