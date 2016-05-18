@@ -1,6 +1,6 @@
 @import "http://fonts.googleapis.com/css?family=Patua+One|Inika";
 body {
-  background: #eddbba;
+  background: #1a1a1a;
   font-family: "Inika", serif;
   font-size: 1.1em;
 }
@@ -92,7 +92,7 @@ section {
 }
 
 .featuredartists {
-  border-top: 20px solid #e3c691;
+  border-top: 20px solid #000;
   border-bottom: 50px solid #507356;
   background: #8d8862;
 }
@@ -108,7 +108,7 @@ section {
 .featuredartists h2 {
   margin-top: 20px;
   font-size: 1.8em;
-  color: #dbb570;
+  color: black;
 }
 @media (max-width: 700px) {
   .featuredartists h2 {
@@ -124,7 +124,7 @@ section {
 .featuredartists .artistlist h2 {
   margin-top: 5px;
   font-size: 1.2em;
-  color: #ebd7b2;
+  color: #141414;
 }
 .featuredartists .artistlist .item {
   position: relative;
